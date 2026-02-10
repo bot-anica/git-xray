@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "git-xray-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "Reveal hidden risks in any git repository — bus factor, hotspots, hidden coupling, knowledge decay, complexity trends"
 readme = "README.md"
 license = {text = "MIT"}
