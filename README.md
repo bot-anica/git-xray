@@ -5,7 +5,7 @@ Reveal hidden risks in any git repository. Zero dependencies, pure Python.
 Point it at a repo and get an instant report on bus factor, change hotspots, hidden coupling between files, knowledge decay, and complexity trends — all from git history alone.
 
 ```
-pip install git-xray
+pip install git-xray-cli
 git-xray /path/to/repo
 ```
 
@@ -97,11 +97,11 @@ git-xray . --active-days 180
 
 ## Installation
 
-Requires Python 3.10+ and git. No other dependencies.
+Requires Python 3.9+ and git. No other dependencies.
 
 ```bash
 # From PyPI
-pip install git-xray
+pip install git-xray-cli
 
 # From source
 git clone https://github.com/bot-anica/git-xray
@@ -109,7 +109,7 @@ cd git-xray
 pip install .
 
 # Or just run directly
-python -m git_xray /path/to/repo
+python3 -m git_xray /path/to/repo
 ```
 
 ## How it works

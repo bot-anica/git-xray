@@ -3,7 +3,7 @@ requires = ["setuptools>=42"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "git-xray"
+name = "git-xray-cli"
 version = "0.1.0"
 description = "Reveal hidden risks in any git repository — bus factor, hotspots, hidden coupling, knowledge decay, complexity trends"
 readme = "README.md"
