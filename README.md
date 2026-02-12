@@ -23,7 +23,7 @@ git-xray /path/to/repo
 
 ```
 ──────────────────────────────────────────────────────────────────────
-  GIT X-RAY  v0.1.0
+  GIT X-RAY  v0.1.2
   my-project  ·  main
   4,300 commits  ·  60 authors  ·  4,404 files
   Jun 14, 2025 — Feb 10, 2026 (241 days)
