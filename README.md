@@ -138,6 +138,10 @@ Use `--json` for machine-readable output suitable for CI dashboards:
 git-xray . --json | jq '.bus_factor[] | select(.risk == "CRITICAL")'
 ```
 
+## GitHub Action
+
+Automatically analyze PRs with [Git X-Ray Action](https://github.com/bot-anica/git-xray-action).
+
 ## License
 
 MIT
